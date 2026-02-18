@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="DAWWAY_V2.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <appSettings>
+        <add key="ShowDigitalMeters" value="True" />
+    </appSettings>
+    <userSettings>
+        <DAWWAY_V2.Settings>
+            <setting name="Line1FontFamily" serializeAs="String">
+                <value>Segoe UI</value>
+            </setting>
+            <setting name="Line1FontSize" serializeAs="String">
+                <value>12</value>
+            </setting>
+            <setting name="Line1FontStyle" serializeAs="String">
+                <value>Normal</value>
+            </setting>
+            <setting name="Line1FontWeight" serializeAs="String">
+                <value>Normal</value>
+            </setting>
+            <setting name="Line1FontStretch" serializeAs="String">
+                <value>Normal</value>
+            </setting>
+            <setting name="Line1FontColor" serializeAs="String">
+                <value>#FF000000</value>
+            </setting>
+            <setting name="Line2FontFamily" serializeAs="String">
+                <value>Segoe UI</value>
+            </setting>
+            <setting name="Line2FontSize" serializeAs="String">
+                <value>12</value>
+            </setting>
+            <setting name="Line2FontStyle" serializeAs="String">
+                <value>Normal</value>
+            </setting>
+            <setting name="Line2FontWeight" serializeAs="String">
+                <value>Normal</value>
+            </setting>
+            <setting name="Line2FontStretch" serializeAs="String">
+                <value>Normal</value>
+            </setting>
+            <setting name="Line2FontColor" serializeAs="String">
+                <value>#FF000000</value>
+            </setting>
+            <setting name="Line3FontFamily" serializeAs="String">
+                <value>Segoe UI</value>
+            </setting>
+            <setting name="Line3FontSize" serializeAs="String">
+                <value>12</value>
+            </setting>
+            <setting name="Line3FontStyle" serializeAs="String">
+                <value>Normal</value>
+            </setting>
+            <setting name="Line3FontWeight" serializeAs="String">
+                <value>Normal</value>
+            </setting>
+            <setting name="Line3FontStretch" serializeAs="String">
+                <value>Normal</value>
+            </setting>
+            <setting name="Line3FontColor" serializeAs="String">
+                <value>#FF000000</value>
+            </setting>
+            <setting name="Line4FontFamily" serializeAs="String">
+                <value>Segoe UI</value>
+            </setting>
+            <setting name="Line4FontSize" serializeAs="String">
+                <value>12</value>
+            </setting>
+            <setting name="Line4FontStyle" serializeAs="String">
+                <value>Normal</value>
+            </setting>
+            <setting name="Line4FontWeight" serializeAs="String">
+                <value>Normal</value>
+            </setting>
+            <setting name="Line4FontStretch" serializeAs="String">
+                <value>Normal</value>
+            </setting>
+            <setting name="MainPort" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="LegacyMode" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="LegacyColumnShade" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="BankWindowBackgroundColor" serializeAs="String">
+                <value>#FF000000</value>
+            </setting>
+            <setting name="TrackBorderColor" serializeAs="String">
+                <value>#FF696969</value>
+            </setting>
+            <setting name="MainWindowPosition" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="MeterCalibration" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="MeterHoldTime" serializeAs="String">
+                <value>1.5</value>
+            </setting>
+            <setting name="MeterDecaySpeed" serializeAs="String">
+                <value>0.015</value>
+            </setting>
+            <setting name="MeterHold" serializeAs="String">
+                <value>0.05</value>
+            </setting>
+            <setting name="MeterPeakHold" serializeAs="String">
+                <value>1.5</value>
+            </setting>
+            <setting name="MetersEnabled" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="PanSmoothingSpeed" serializeAs="String">
+                <value>0.15</value>
+            </setting>
+            <setting name="PanDirectionPrediction" serializeAs="String">
+                <value>0.3</value>
+            </setting>
+            <setting name="PanSmoothingEnabled" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="MeterType" serializeAs="String">
+                <value>Both</value>
+            </setting>
+            <setting name="LemonSqueezyTier" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="TrialStartUtc" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TrialDurationDays" serializeAs="String">
+                <value>7</value>
+            </setting>
+            <setting name="TrackBorderColor1" serializeAs="String">
+                <value>#FF696969</value>
+            </setting>
+            <setting name="SelectedTrackTheme" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="EnrichTrackColours" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="PopOnSelection" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="ShowDigitalMetersFull" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ShowDigitalMetersMedium" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ShowDigitalMetersLarge" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="ShowAnalogueMeters" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="CollapseExtendedText" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="ForceMasterMonoMode" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="ShowMasterMeters" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="BankByAllSurfaces" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="ShowTimer" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="ShowMarkers" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="UseMarkerNavigationCC" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="TimerColor" serializeAs="String">
+                <value>#FFFF0000</value>
+            </setting>
+            <setting name="TimerHeight" serializeAs="String">
+                <value>160</value>
+            </setting>
+            <setting name="TimerFontFamily" serializeAs="String">
+                <value>Consolas</value>
+            </setting>
+            <setting name="TimerFontSize" serializeAs="String">
+                <value>144</value>
+            </setting>
+            <setting name="TimerFontBold" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TimerFontItalic" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TimerUseFont" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="BankWindowStyle" serializeAs="String">
+                <value>SingleBorderWindow</value>
+            </setting>
+            <setting name="Section3Height" serializeAs="String">
+                <value>60</value>
+            </setting>
+            <setting name="SelectedDigitalMeterSize" serializeAs="String">
+                <value>Large</value>
+            </setting>
+            <setting name="DebugLicenseOverride" serializeAs="String">
+                <value>-1</value>
+            </setting>
+            <setting name="LemonSqueezyLicenseKey" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="LemonSqueezyInstanceId" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="LemonSqueezyTier1" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="TrialStartUtc1" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TrialDurationDays1" serializeAs="String">
+                <value>7</value>
+            </setting>
+            <setting name="TrackBorderColor11" serializeAs="String">
+                <value>#FF696969</value>
+            </setting>
+            <setting name="SelectedTrackTheme1" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="EnrichTrackColours1" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="PopOnSelection1" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="ShowDigitalMetersFull1" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ShowDigitalMetersMedium1" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ShowDigitalMetersLarge1" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ShowAnalogueMeters1" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="CollapseExtendedText1" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="ForceMasterMonoMode1" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="ShowMasterMeters1" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="BankByAllSurfaces1" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="ShowTimer1" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="ShowMarkers1" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="UseMarkerNavigationCC1" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="TimerColor1" serializeAs="String">
+                <value>#FFFF0000</value>
+            </setting>
+            <setting name="TimerHeight1" serializeAs="String">
+                <value>160</value>
+            </setting>
+            <setting name="TimerFontFamily1" serializeAs="String">
+                <value>Consolas</value>
+            </setting>
+            <setting name="TimerFontSize1" serializeAs="String">
+                <value>144</value>
+            </setting>
+            <setting name="TimerFontBold1" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TimerFontItalic1" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TimerUseFont1" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="BankWindowStyle1" serializeAs="String">
+                <value>SingleBorderWindow</value>
+            </setting>
+            <setting name="Section3Height1" serializeAs="String">
+                <value>60</value>
+            </setting>
+            <setting name="SelectedDigitalMeterSize1" serializeAs="String">
+                <value>Small</value>
+            </setting>
+            <setting name="DebugLicenseOverride1" serializeAs="String">
+                <value>-1</value>
+            </setting>
+            <setting name="LemonSqueezyLicenseKey1" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="LemonSqueezyInstanceId1" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="LemonSqueezyTier2" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="TrialStartUtc2" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TrialDurationDays2" serializeAs="String">
+                <value>7</value>
+            </setting>
+            <setting name="TrackBorderColor12" serializeAs="String">
+                <value>#FF696969</value>
+            </setting>
+            <setting name="SelectedTrackTheme2" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="EnrichTrackColours2" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="PopOnSelection2" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="ShowDigitalMetersFull2" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ShowDigitalMetersMedium2" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ShowDigitalMetersLarge2" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ShowAnalogueMeters2" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="CollapseExtendedText2" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="ForceMasterMonoMode2" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="ShowMasterMeters2" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="BankByAllSurfaces2" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="ShowTimer2" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="ShowMarkers2" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="UseMarkerNavigationCC2" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="TimerColor2" serializeAs="String">
+                <value>#FFFF0000</value>
+            </setting>
+            <setting name="TimerHeight2" serializeAs="String">
+                <value>160</value>
+            </setting>
+            <setting name="TimerFontFamily2" serializeAs="String">
+                <value>Consolas</value>
+            </setting>
+            <setting name="TimerFontSize2" serializeAs="String">
+                <value>144</value>
+            </setting>
+            <setting name="TimerFontBold2" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TimerFontItalic2" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TimerUseFont2" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="BankWindowStyle2" serializeAs="String">
+                <value>SingleBorderWindow</value>
+            </setting>
+            <setting name="Section3Height2" serializeAs="String">
+                <value>60</value>
+            </setting>
+            <setting name="SelectedDigitalMeterSize2" serializeAs="String">
+                <value>Small</value>
+            </setting>
+            <setting name="DebugLicenseOverride2" serializeAs="String">
+                <value>-1</value>
+            </setting>
+            <setting name="LemonSqueezyLicenseKey2" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="LemonSqueezyInstanceId2" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="LemonSqueezyTier3" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="TrialStartUtc3" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TrialDurationDays3" serializeAs="String">
+                <value>7</value>
+            </setting>
+            <setting name="BankWindowResizeMode" serializeAs="String">
+                <value>CanResize</value>
+            </setting>
+            <setting name="BankWindowShowTitleBar" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="SwapDisplayLines" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ShowDigitalMeters" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ShowTrackInformation" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ContentGridHeight" serializeAs="String">
+                <value>150</value>
+            </setting>
+            <setting name="ShowTrackNumbers" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="MeterForegroundStyle" serializeAs="String">
+                <value />
+            </setting>
+        </DAWWAY_V2.Settings>
+    </userSettings>
+</configuration>
