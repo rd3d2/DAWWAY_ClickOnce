@@ -35,7 +35,7 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="DAWWAY Lite- Meter Bridge" />
   <meta name="twitter:description" content="Meters at your eyeline for your control surfaces." />
-  <meta name="twitter:image" content=https://dawway.co.uk/Package%20Shot%202%20Lite.png" />
+  <meta name="twitter:image" content="https://dawway.co.uk/Package%20Shot%202%20Lite.png" />
 
   <style>
     :root{
@@ -389,6 +389,39 @@
       .daw-list{ grid-template-columns: 1fr; }
     }
 
+    .grid-2{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap:14px;
+    }
+    @media (max-width: 900px){ .grid-2{ grid-template-columns: 1fr; } }
+
+    .video-card{ padding:16px; }
+    .video-card h3{ margin:0 0 8px; font-size:16px }
+    .video-card p{ margin:10px 0 0; color:var(--muted); font-size:14px; line-height:1.6 }
+    .video-embed{
+      position:relative;
+      width:100%;
+      aspect-ratio:16/9;
+      border-radius:16px;
+      overflow:hidden;
+      border:1px solid rgba(255,255,255,.10);
+      background:#000;
+      box-shadow: 0 10px 30px rgba(0,0,0,.35);
+    }
+    .video-embed iframe{
+      position:absolute; inset:0;
+      width:100%; height:100%;
+      border:0;
+    }
+    .video-meta{
+      display:flex; gap:10px; flex-wrap:wrap;
+      margin-top:12px;
+      align-items:center;
+      justify-content:space-between;
+    }
+    .video-meta .pill{ color:var(--text); }
+
 
   </style>
 </head>
@@ -405,11 +438,12 @@
       <div class="nav-links">
         <a href="#features">Features</a>
         <a href="#how">How it works</a>
+        <a href="#videos">Videos</a>
         <a href="#compat">Compatibility</a>
         <!--<a href="#compare">Lite vs Pro</a> -->
         <a href="#faq">FAQ</a>
         <!-- Download now goes straight to your ClickOnce page -->
-        <a class="cta secondary" data-download href="#">Download</a>
+        <a class="cta secondary" href="#download">Get DAWWAY</a>
       </div>
     </div>
   </div>
@@ -428,7 +462,7 @@
         </p>
 
         <div class="hero-actions">
-          <a class="cta" data-download href="#">Download DAWWAY</a>
+          <a class="cta" href="#videos">Watch the demos</a>
           <a class="cta" href="https://dawway.lemonsqueezy.com/">Register DAWWAY *</a>
           <!--<a class="cta secondary" href="#compare">Compare Lite vs Pro</a>-->
         </div>
@@ -686,6 +720,58 @@
   </section>
 
 
+  <section id="videos" class="wrap">
+    <div class="section-title">
+      <h2>Videos</h2>
+      <div class="hint">Two quick demos, plus the full playlist.</div>
+    </div>
+
+    <div class="grid-2">
+      <div class="card video-card">
+        <h3>Instant Mix Focus (Solo Highlight + Global Dimming)</h3>
+        <div class="video-embed" aria-label="YouTube video: Instant Mix Focus">
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/1i27ROlm4lw?rel=0"
+            title="DAWWAY Lite demo"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="video-meta">
+          <a class="pill" href="https://www.youtube.com/watch?v=QI_99Q6Yizg" target="_blank" rel="noopener">Open on YouTube</a>
+          <a class="pill" data-youtube href="#" target="_blank" rel="noopener">More videos (playlist)</a>
+        </div>
+        <p>Shows how DAWWAY can highlight the solo’d track and dim everything else, with adjustable global dimming.</p>
+      </div>
+
+      <div class="card video-card">
+        <h3>DAWWAY Lite demo</h3>
+        <div class="video-embed" aria-label="YouTube video: DAWWAY Lite demo">
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/QI_99Q6Yizg?rel=0"
+            title="DAWWAY Lite - Instant Mix Focus"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="video-meta">
+          <a class="pill" href="https://www.youtube.com/watch?v=1i27ROlm4lw" target="_blank" rel="noopener">Open on YouTube</a>
+          <a class="pill" data-youtube href="#" target="_blank" rel="noopener">More videos (playlist)</a>
+        </div>
+        <p>A practical walk-through of the DAWWAY Lite experience: metering, layout, and workflow.</p>
+      </div>
+    </div>
+
+    <div style="margin-top:14px; color:var(--muted); font-size:14px;">
+      Want more? Browse the full playlist for additional DAW/control-surface combinations and feature clips.
+      <a data-youtube href="#" style="text-decoration:underline; color:var(--text);">Open the DAWWAY playlist</a>.
+    </div>
+  </section>
+
+
+
   <section id="compat" class="wrap">
     <div class="section-title">
       <h2>Compatibility</h2>
@@ -840,7 +926,7 @@
 
       <div class="pill-row">
         <a class="pill" licence-purchase href="https://dawway.lemonsqueezy.com/">Licence</a>
-        <a class="pill" data-download href="#">Download</a>
+        <a class="pill" href="#download">Download</a>
         <a class="pill" href="#compat">Compatibility</a>
         <!--<a class="pill" href="#compare">Lite vs Pro</a>-->
         <a class="pill" data-youtube href="https://www.youtube.com/@ianwalker2258" aria-disabled="true">Authors YouTube</a>
